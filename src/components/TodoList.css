@@ -1,0 +1,42 @@
+.todo-list {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3em;
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.todo-list .caption {
+  background-color: #424758;
+  /* padding: 1em; */
+  color: #afbcea;
+  font-weight: bold;
+  position: relative;
+}
+
+.todo-list .caption-title {
+  display: inline-block;
+  padding: 1em;
+}
+
+.todo-list .caption-action {
+  position: absolute;
+  right: 0;
+  padding: 1em;
+  background-size: 200% 200%;
+  background-image: linear-gradient(to top, #9456d8 50%, transparent 50%);
+  transition: background-position 0.2s ease-out;
+}
+
+.todo-list .caption-action:hover {
+  color: #f0f0f0;
+  background-image: linear-gradient(to top, #9456d8 51%, transparent 50%);
+  background-position: 0 100%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .todo-list {
+    width: 960px;
+  }
+}

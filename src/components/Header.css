@@ -1,0 +1,16 @@
+header {
+    width: 100vw;
+    height: auto;
+    padding: 1em;
+    padding-left: 10%;
+    background-color: #2a2b34;
+}
+
+.heading {
+    color: #f0f0f0;
+    font-size: 1.9em;
+}
+
+.sub-heading {
+    color: #a6a9c6;
+}

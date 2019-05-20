@@ -1,0 +1,75 @@
+.todo-input {
+  width: 80%;
+  margin: 3em auto 0;
+}
+
+form {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  transition: all 0.2 ease-in;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #9456d8;
+  color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  padding: 12px 36px;
+}
+
+.btn-primary:hover {
+  background: darken(#9456d8, 4%);
+}
+
+.btn-primary:active {
+  background: #9456d8;
+  box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn-inside {
+  margin-left: -86px;
+}
+
+.btn-edit {
+  background: #b39afd;
+}
+
+.btn-edit:hover {
+  background: darken(#b39afd, 5%);
+}
+
+.btn-edit:active {
+  background: #b39afd;
+}
+
+.todo-input-field {
+  width: calc(90% - 20px);
+  background: #fff;
+  color: #a3a3a3;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 0;
+  outline: 0;
+  padding: 22px 18px;
+  border-radius: 0;
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+  .todo-input-field {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .todo-input-field {
+    padding-left: 4px;
+  }
+}
